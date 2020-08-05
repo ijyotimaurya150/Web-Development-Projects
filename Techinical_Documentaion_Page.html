@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #navbar {
+        background-color: cadetblue;
+        position: fixed;
+        float: left;
+        width: 200px;
+        height: 725px;
+      }
+      .flex-container {
+        display: flex;
+      }
+      .class {
+        justify-content: left;
+      }
+      main {
+        margin-left: 210px;
+      }
+      @media (max-width: 550px) {
+        h1 {
+          font-size: 1.25em;
+        }
+      }
+    </style>
+  </head>
+  <div class="flex-container">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="left">
+      <nav id="navbar">
+        <header
+          style="
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+              sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+          "
+        >
+          Learn C++ Programming
+        </header>
+        <a class="nav-link" href="#C++_Introduction">C++ Introduction</a>
+        <br />
+        <a class="nav-link" href="#Introduction_2">Introduction 2</a>
+        <br />
+        <a class="nav-link" href="#Introduction_3">Introduction 3</a>
+        <br />
+        <a class="nav-link" href="#Introduction_4">Introduction 4</a>
+        <br />
+        <a class="nav-link" href="#Introduction_5">Introduction 5</a>
+      </nav>
+    </div>
+    <div>
+      <main id="main-doc">
+        <section class="main-section" id="C++_Introduction">
+          <header>
+            C++ Introduction
+          </header>
+          <h2>
+            C++ Variables, Literals and Constants
+          </h2>
+          <p style="font-weight: bold;">
+            In this tutorial, we will learn about variables, literals, and
+            constants in C++ with the help of examples.
+          </p>
+          <h4>
+            C++ Variables
+          </h4>
+          <p>
+            In programming, a variable is a container (storage area) to hold
+            data.
+          </p>
+          <br />
+          <p>
+            To indicate the storage area, each variable should be given a unique
+            name (identifier). For example,
+          </p>
+          <code>
+            int age = 14;
+          </code>
+          <p>
+            Here, <code>age</code> is a variable of the int data type, and we
+            have assigned an integer value 14 to it.
+          </p>
+          <br />
+          <p>
+            We will learn about all the data types in detail in the next
+            tutorial.
+          </p>
+          <br />
+          <p>
+            The value of a variable can be changed, hence the name
+            <b>variable</b>.
+          </p>
+          <code style="border: 1px solid black;">
+            int age = 14; // age is 14 age = 17; // age is 17
+          </code>
+          <br />
+          <h4>
+            Rules for naming a variable
+          </h4>
+          <ul>
+            <li>
+              A variable name can only have alphabets, numbers and the
+              underscore<code>_</code>
+            </li>
+            <li>A variable name cannot begin with a number.</li>
+            <li>Variable names cannot begin with an uppercase character.</li>
+            <li>
+              A variable name cannot be a keyword. For example,
+              <code>int</code> is a keyword that is used to denote integers.
+            </li>
+            <li>
+              A variable name can start with an underscore. However, it's not
+              considered a good practice.
+            </li>
+          </ul>
+          <br />
+          <h4>C++ Literals</h4>
+          <p>
+            Literals are data used for representing fixed values. They can be
+            used directly in the code. For example: <code>1</code>,
+            <code>2.5</code>, <code>'c'</code> etc.
+          </p>
+          <br />
+          <p>
+            Here, <code>1</code>, <code>2.5</code> and <code>'c'</code>are
+            literals. Why? You cannot assign different values to these terms.
+          </p>
+          <br />
+          <p>
+            Here's a list of different literals in C++ programming.
+          </p>
+        </section>
+        <section class="main-section" id="Introduction_2">
+          <header>
+            Introduction 2
+          </header>
+          <h2>
+            C++ Variables, Literals and Constants
+          </h2>
+          <p style="font-weight: bold;">
+            In this tutorial, we will learn about variables, literals, and
+            constants in C++ with the help of examples.
+          </p>
+          <h4>
+            C++ Variables
+          </h4>
+          <p>
+            In programming, a variable is a container (storage area) to hold
+            data.
+          </p>
+          <br />
+          <p>
+            To indicate the storage area, each variable should be given a unique
+            name (identifier). For example,
+          </p>
+          <code>
+            int age = 14;
+          </code>
+          <p>
+            Here, <code>age</code> is a variable of the int data type, and we
+            have assigned an integer value 14 to it.
+          </p>
+          <br />
+          <p>
+            We will learn about all the data types in detail in the next
+            tutorial.
+          </p>
+          <br />
+          <p>
+            The value of a variable can be changed, hence the name
+            <b>variable</b>.
+          </p>
+          <code style="border: 1px solid black;">
+            int age = 14; // age is 14 age = 17; // age is 17
+          </code>
+          <br />
+          <h4>
+            Rules for naming a variable
+          </h4>
+          <ul>
+            <li>
+              A variable name can only have alphabets, numbers and the
+              underscore<code>_</code>
+            </li>
+            <li>A variable name cannot begin with a number.</li>
+            <li>Variable names cannot begin with an uppercase character.</li>
+            <li>
+              A variable name cannot be a keyword. For example,
+              <code>int</code> is a keyword that is used to denote integers.
+            </li>
+            <li>
+              A variable name can start with an underscore. However, it's not
+              considered a good practice.
+            </li>
+          </ul>
+          <br />
+          <h4>C++ Literals</h4>
+          <p>
+            Literals are data used for representing fixed values. They can be
+            used directly in the code. For example: <code>1</code>,
+            <code>2.5</code>, <code>'c'</code> etc.
+          </p>
+          <br />
+          <p>
+            Here, <code>1</code>, <code>2.5</code> and <code>'c'</code>are
+            literals. Why? You cannot assign different values to these terms.
+          </p>
+          <br />
+          <p>
+            Here's a list of different literals in C++ programming.
+          </p>
+        </section>
+        <section class="main-section" id="Introduction_3">
+          <header>
+            Introduction 3
+          </header>
+          <h2>
+            C++ Variables, Literals and Constants
+          </h2>
+          <p style="font-weight: bold;">
+            In this tutorial, we will learn about variables, literals, and
+            constants in C++ with the help of examples.
+          </p>
+          <h4>
+            C++ Variables
+          </h4>
+          <p>
+            In programming, a variable is a container (storage area) to hold
+            data.
+          </p>
+          <br />
+          <p>
+            To indicate the storage area, each variable should be given a unique
+            name (identifier). For example,
+          </p>
+          <code>
+            int age = 14;
+          </code>
+          <p>
+            Here, <code>age</code> is a variable of the int data type, and we
+            have assigned an integer value 14 to it.
+          </p>
+          <br />
+          <p>
+            We will learn about all the data types in detail in the next
+            tutorial.
+          </p>
+          <br />
+          <p>
+            The value of a variable can be changed, hence the name
+            <b>variable</b>.
+          </p>
+          <code style="border: 1px solid black;">
+            int age = 14; // age is 14 age = 17; // age is 17
+          </code>
+          <br />
+          <h4>
+            Rules for naming a variable
+          </h4>
+          <ul>
+            <li>
+              A variable name can only have alphabets, numbers and the
+              underscore<code>_</code>
+            </li>
+            <li>A variable name cannot begin with a number.</li>
+            <li>Variable names cannot begin with an uppercase character.</li>
+            <li>
+              A variable name cannot be a keyword. For example,
+              <code>int</code> is a keyword that is used to denote integers.
+            </li>
+            <li>
+              A variable name can start with an underscore. However, it's not
+              considered a good practice.
+            </li>
+          </ul>
+          <br />
+          <h4>C++ Literals</h4>
+          <p>
+            Literals are data used for representing fixed values. They can be
+            used directly in the code. For example: <code>1</code>,
+            <code>2.5</code>, <code>'c'</code> etc.
+          </p>
+          <br />
+          <p>
+            Here, <code>1</code>, <code>2.5</code> and <code>'c'</code>are
+            literals. Why? You cannot assign different values to these terms.
+          </p>
+          <br />
+          <p>
+            Here's a list of different literals in C++ programming.
+          </p>
+        </section>
+        <section class="main-section" id="Introduction_4">
+          <header>
+            Introduction 4
+          </header>
+          <h2>
+            C++ Variables, Literals and Constants
+          </h2>
+          <p style="font-weight: bold;">
+            In this tutorial, we will learn about variables, literals, and
+            constants in C++ with the help of examples.
+          </p>
+          <h4>
+            C++ Variables
+          </h4>
+          <p>
+            In programming, a variable is a container (storage area) to hold
+            data.
+          </p>
+          <br />
+          <p>
+            To indicate the storage area, each variable should be given a unique
+            name (identifier). For example,
+          </p>
+          <code>
+            int age = 14;
+          </code>
+          <p>
+            Here, <code>age</code> is a variable of the int data type, and we
+            have assigned an integer value 14 to it.
+          </p>
+          <br />
+          <p>
+            We will learn about all the data types in detail in the next
+            tutorial.
+          </p>
+          <br />
+          <p>
+            The value of a variable can be changed, hence the name
+            <b>variable</b>.
+          </p>
+          <code style="border: 1px solid black;">
+            int age = 14; // age is 14 age = 17; // age is 17
+          </code>
+          <br />
+          <h4>
+            Rules for naming a variable
+          </h4>
+          <ul>
+            <li>
+              A variable name can only have alphabets, numbers and the
+              underscore<code>_</code>
+            </li>
+            <li>A variable name cannot begin with a number.</li>
+            <li>Variable names cannot begin with an uppercase character.</li>
+            <li>
+              A variable name cannot be a keyword. For example,
+              <code>int</code> is a keyword that is used to denote integers.
+            </li>
+            <li>
+              A variable name can start with an underscore. However, it's not
+              considered a good practice.
+            </li>
+          </ul>
+          <br />
+          <h4>C++ Literals</h4>
+          <p>
+            Literals are data used for representing fixed values. They can be
+            used directly in the code. For example: <code>1</code>,
+            <code>2.5</code>, <code>'c'</code> etc.
+          </p>
+          <br />
+          <p>
+            Here, <code>1</code>, <code>2.5</code> and <code>'c'</code>are
+            literals. Why? You cannot assign different values to these terms.
+          </p>
+          <br />
+          <p>
+            Here's a list of different literals in C++ programming.
+          </p>
+        </section>
+        <section class="main-section" id="Introduction_5">
+          <header>
+            Introduction 5
+          </header>
+          <h2>
+            C++ Variables, Literals and Constants
+          </h2>
+          <p style="font-weight: bold;">
+            In this tutorial, we will learn about variables, literals, and
+            constants in C++ with the help of examples.
+          </p>
+          <h4>
+            C++ Variables
+          </h4>
+          <p>
+            In programming, a variable is a container (storage area) to hold
+            data.
+          </p>
+          <br />
+          <p>
+            To indicate the storage area, each variable should be given a unique
+            name (identifier). For example,
+          </p>
+          <code>
+            int age = 14;
+          </code>
+          <p>
+            Here, <code>age</code> is a variable of the int data type, and we
+            have assigned an integer value 14 to it.
+          </p>
+          <br />
+          <p>
+            We will learn about all the data types in detail in the next
+            tutorial.
+          </p>
+          <br />
+          <p>
+            The value of a variable can be changed, hence the name
+            <b>variable</b>.
+          </p>
+          <code style="border: 1px solid black;">
+            int age = 14; // age is 14 age = 17; // age is 17
+          </code>
+          <br />
+          <h4>
+            Rules for naming a variable
+          </h4>
+          <ul>
+            <li>
+              A variable name can only have alphabets, numbers and the
+              underscore<code>_</code>
+            </li>
+            <li>A variable name cannot begin with a number.</li>
+            <li>Variable names cannot begin with an uppercase character.</li>
+            <li>
+              A variable name cannot be a keyword. For example,
+              <code>int</code> is a keyword that is used to denote integers.
+            </li>
+            <li>
+              A variable name can start with an underscore. However, it's not
+              considered a good practice.
+            </li>
+          </ul>
+          <br />
+          <h4>C++ Literals</h4>
+          <p>
+            Literals are data used for representing fixed values. They can be
+            used directly in the code. For example: <code>1</code>,
+            <code>2.5</code>, <code>'c'</code> etc.
+          </p>
+          <br />
+          <p>
+            Here, <code>1</code>, <code>2.5</code> and <code>'c'</code>are
+            literals. Why? You cannot assign different values to these terms.
+          </p>
+          <br />
+          <p>
+            Here's a list of different literals in C++ programming.
+          </p>
+        </section>
+      </main>
+    </div>
+  </div>
+</html>
